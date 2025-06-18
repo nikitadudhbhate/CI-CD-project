@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud_vendor?useSSL=false
+    username: cloudvendoradmin
+    password: password
+# JPA Settings
+  jpa:
+    hibernate:
+      ddl-auto: create
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+apiTitle: "Cloud Vendor API Application"
+apiDescription: "Cloud Vendor API Documentation."
+apiVersion: "1.0.0"
+apiContactName: ""
+apiContactEmail: ""
+apiContactUrl: ""
